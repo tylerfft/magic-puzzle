@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?ycs855");
+  src: url("../fonts/icomoon.eot?ycs855#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?ycs855") format("truetype"),
+    url("../fonts/icomoon.woff?ycs855") format("woff"),
+    url("../fonts/icomoon.svg?ycs855#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 30px;
+}
+
+:root {
+  --card-shadow: rgba(0, 0, 0, 0.15);
+}
+
+body {
+  font: normal 14px/1.5;
+  color: #000;
+  background: #f2f2f2;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.main {
+  height: calc(100vh - 100px);
+  width: 100%;
+  display: flex;
+}

@@ -1,0 +1,28 @@
+.demo {
+  position: absolute;
+  height: 6rem;
+  width: 10rem;
+  user-select: none;
+}
+
+.demo_desc {
+  float: left;
+  height: 1rem;
+  width: 8rem;
+  line-height: 1rem;
+  font-size: 0.5rem;
+  text-align: left;
+}
+
+.answer {
+  position: absolute;
+  top: -1rem;
+  right: 0;
+  height: 1rem;
+  width: 2rem;
+  line-height: 1rem;
+  font-size: 0.6rem;
+  text-align: center;
+  color: white;
+  background: linear-gradient(to bottom right, red, blue);
+}

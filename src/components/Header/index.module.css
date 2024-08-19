@@ -1,0 +1,91 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 100%;
+  /* background-color: #FEFEFE; */
+  box-shadow: 0 2px 8px var(--card-shadow);
+}
+
+.navbar_start {
+  flex: 1;
+  height: 50px;
+  line-height: 50px;
+  text-align: left;
+  /* margin-left: 0; */
+  display: flex;
+  position: relative;
+}
+
+.nav_logo {
+  position: absolute;
+  left: 20px;
+  height: 50px;
+  width: 50px;
+}
+
+.nav_logo::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "\e91a";
+  align-items: center;
+  font-family: "icomoon";
+  color: #548294;
+  font-size: 35px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+}
+
+.navbar_end {
+  height: 50px;
+  flex: 1;
+  line-height: 50px;
+  justify-content: space-between;
+}
+
+.navbar_end li {
+  float: right;
+}
+.navbar_end li a {
+  float: right;
+  height: 50px;
+  width: 20px;
+  position: relative;
+  margin-right: 1.25rem;
+  text-indent: -9999px;
+}
+
+.navbar_end li:nth-child(1)::before {
+  position: absolute;
+  content: "\eab0";
+  color: #444444;
+  align-items: center;
+  font-family: "icomoon";
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.navbar_end li:nth-child(2)::before {
+  position: absolute;
+  content: "\e90e";
+  color: #0077b6;
+  align-items: center;
+  font-family: "icomoon";
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.navbar_end li:nth-child(3)::before {
+  position: absolute;
+  content: "\e90d";
+  color: #f89f1c;
+  align-items: center;
+  font-family: "icomoon";
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+}

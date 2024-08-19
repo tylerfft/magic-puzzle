@@ -1,0 +1,56 @@
+.footer {
+  height: 50px;
+  width: 100%;
+  box-shadow: 0 2px 8px var(--card-shadow);
+  position: relative;
+}
+
+.footer ul {
+  height: 50px;
+  width: 300px;
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer ul a li {
+  position: relative;
+}
+
+.footer ul a li {
+  display: block;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+}
+
+.footer ul a:nth-child(1) li::before {
+  position: absolute;
+  content: "\eab0";
+  color: #444444;
+  align-items: center;
+  font-family: "icomoon";
+  font-size: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.footer ul a:nth-child(2) li::before {
+  position: absolute;
+  content: "\e90e";
+  color: #0077b6;
+  align-items: center;
+  font-family: "icomoon";
+  font-size: 30px;
+}
+
+.footer ul a:nth-child(3) li::before {
+  position: absolute;
+  content: "\e90d";
+  color: #f89f1c;
+  align-items: center;
+  font-family: "icomoon";
+  font-size: 30px;
+}

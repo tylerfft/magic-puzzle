@@ -1,0 +1,32 @@
+.puzzel {
+  width: 100%;
+  position: relative;
+  user-select: none;
+  text-align: center;
+  overflow: auto;
+  height: calc(100vh - 100px);
+  width: 100%;
+  display: flex;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(22, 1rem);
+  grid-template-rows: repeat(17, 1rem);
+  border-collapse: collapse;
+  position: absolute;
+  left: 50%;
+  top: 3rem;
+  margin-left: -11rem;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.grid-item {
+  width: 1rem;
+  height: 1rem;
+  line-height: 1rem;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  text-align: center;
+  font-size: 0.4rem;
+}
